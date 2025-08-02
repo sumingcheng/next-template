@@ -1,0 +1,19 @@
+services:
+  next-template:
+    image: next-template:v1.0.0
+    container_name: next-template
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+        reservations:
+          memory: 1G
+    ports:
+      - "3000:3000"
+    networks:
+      - next-template-network
+
+networks:
+  next-template-network:
+    driver: bridge

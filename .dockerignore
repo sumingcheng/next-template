@@ -1,0 +1,29 @@
+.git
+.gitignore
+.next
+.env*
+node_modules
+Dockerfile
+.dockerignore
+README.md
+.vscode
+.idea
+*.log
+
+# Editor/IDE specific files
+.prettierignore
+.prettierrc.js
+.eslintrc.json
+.editorconfig
+
+# Local development files
+.npmrc
+next-env.d.ts
+
+# Other
+Makefile
+deploy/
+schema.sql
+data/
+components.json
+.tool-versions
