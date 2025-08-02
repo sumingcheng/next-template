@@ -21,7 +21,7 @@ pnpm lint
 - **框架**: Next.js (15.4.5)
 - **UI 渲染**: React (19.1.0)
 - **UI 组件**:
-  - Radix UI (@radix-ui/react-avatar, @radix-ui/react-dialog, @radix-ui/react-dropdown-menu, @radix-ui/themes)
+  - Radix UI
   - react-icons
 - **样式**: Tailwind CSS (v4)
 - **状态管理**: Zustand
